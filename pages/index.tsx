@@ -1,15 +1,27 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+import Header from '../components/Header'
+// import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
     return (
-        <div className={styles.container}>
+        <div>
             <Head>
                 <title>Javi portfolio</title>
             </Head>
-            
-            {/*  */}
+
+            {/* Header */}
+            <Header />
+            {/* Hero */}
+
+            {/* About */}
+
+            {/* Skills */}
+
+            {/* Projects */}
+
+            {/* Contact Me */}
+
         </div>
     )
 }
