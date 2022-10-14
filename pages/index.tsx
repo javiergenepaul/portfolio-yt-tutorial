@@ -1,27 +1,35 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import About from '../components/About'
 import Header from '../components/Header'
-// import styles from '../styles/Home.module.css'
+import Hero from '../components/Hero'
+import WorkExperience from '../components/WorkExperience'
 
 const Home: NextPage = () => {
     return (
-        <div>
+        <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap snap-mandatorys overflow-scroll z-0">
             <Head>
                 <title>Javi portfolio</title>
             </Head>
 
-            {/* Header */}
             <Header />
-            {/* Hero */}
 
-            {/* About */}
+            <section id="hero" className="snap-start">
+                <Hero />
+            </section>
 
+            <section id="about" className="snap-center">
+                <About />
+            </section>
+            
+            <section id="experience" className="snap-center">
+                <WorkExperience />
+            </section>
             {/* Skills */}
 
             {/* Projects */}
 
             {/* Contact Me */}
-
         </div>
     )
 }
