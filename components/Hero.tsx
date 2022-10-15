@@ -5,7 +5,7 @@ import BackgroundCircles from './BackgroundCircles'
 
 function Hero() {
     const [text, count] = useTypewriter({
-        words: ["Hi The Name's Gene Paul Mar", 'Guy-who-loves-cofee.tsx', '<ButLovesToCodeMore />'],
+        words: ["Hi The Name's Gene Paul Mar", 'Guy_who_loves_coffee.tsx', '<ButLovesToCodeMore />'],
         loop: true,
         delaySpeed: 2000
     })
